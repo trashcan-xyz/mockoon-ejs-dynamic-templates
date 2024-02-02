@@ -1,0 +1,20 @@
+{
+    "name": "mockoon-handlerbars-json-replace",
+    "version": "1.0.0",
+    "description": "A Node.js script to dynamically replace specific keys in JSON files with calculated dates.",
+    "main": "index.js",
+    "scripts": {
+        "replace": "node index.js"
+    },
+    "keywords": [
+        "json",
+        "replace",
+        "dynamic",
+        "nodejs"
+    ],
+    "author": "Your Name",
+    "license": "ISC",
+    "dependencies": {
+        "ejs": "^3.1.9"
+    }
+}
