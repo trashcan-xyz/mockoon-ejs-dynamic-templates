@@ -32,3 +32,14 @@ npm run replace
 ```
 
 3. Open the Mockoon environment (`demo.json`)
+
+## Extensibility
+
+Extend the template replacements in [index.js](./index.js):
+
+```javascript
+const replacements = {
+    tomorrow: calculateTomorrow(),
+    dayAfterTomorrow: calculateDayAfterTomorrow()
+};
+```
